@@ -26,7 +26,7 @@ aparatu cyfrowego HP Photosmart 215.
 %setup -q -n hp_photosmart215-%{version}
 
 %build
-cp -f %{_datadir}/automake/config.sub .
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
@@ -36,13 +36,13 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
         DESTDIR=$RPM_BUILD_ROOT
 
+%find_lang hp_photosmart215
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f hp_photosmart215.lang
 %defattr(644,root,root,755)
-%doc doc/* ABOUT-NLS FAQ AUTHORS INSTALL ChangeLog NEWS README TODO
+%doc doc/html AUTHORS ChangeLog FAQ README TODO
 %attr(755,root,root) %{_bindir}/*
-%lang(de) %{_datadir}/locale/de/LC_MESSAGES/*
-%lang(pt) %{_datadir}/locale/pt/LC_MESSAGES/*
 %{_mandir}/man1/*
