@@ -1,5 +1,5 @@
 Summary:	hp215 - HP PhotoSmart 215 digicam access utility
-Summary(pl):	hp215 - Narzêdzie obs³uguj±ce aparat cyfrowy HP PhotoSmart 215
+Summary(pl):	hp215 - narzêdzie obs³uguj±ce aparat cyfrowy HP PhotoSmart 215
 Name:		hp215
 Group:		Applications
 Version:	0.2.3
