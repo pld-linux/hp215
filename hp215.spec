@@ -6,6 +6,7 @@ Version:	0.2.3
 Release:	1
 License:	GPL v2
 Source0:	http://home.nwn.de/ebartels/linux/hp215/hp_photosmart215-%{version}.tar.gz
+# Source0-md5:	84bf37121fd9cdfa6f97872388a5c460
 URL:		http://home.nwn.de/ebartels/linux/hp215/
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake
