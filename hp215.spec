@@ -15,7 +15,7 @@ BuildRequires:	libusb-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This commandline pogramm with the name hp215 can read photos from the
+This commandline program with the name hp215 can read photos from the
 HP Photosmart 215 camera.
 
 %description -l pl
