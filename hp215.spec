@@ -1,5 +1,5 @@
 Summary:	hp215 - HP PhotoSmart 215 digicam access utility
-Summary(pl):	hp215 - narzêdzie obs³uguj±ce aparat cyfrowy HP PhotoSmart 215
+Summary(pl.UTF-8):   hp215 - narzÄ™dzie obsÅ‚ugujÄ…ce aparat cyfrowy HP PhotoSmart 215
 Name:		hp215
 Group:		Applications
 Version:	0.2.3
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This commandline program with the name hp215 can read photos from the
 HP Photosmart 215 camera.
 
-%description -l pl
-Za pomoc± ma³ego programu o nazwie hp215 mo¿na odczytaæ zdjêcia z
+%description -l pl.UTF-8
+Za pomocÄ… maÅ‚ego programu o nazwie hp215 moÅ¼na odczytaÄ‡ zdjÄ™cia z
 aparatu cyfrowego HP Photosmart 215.
 
 %prep
