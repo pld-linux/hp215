@@ -10,7 +10,7 @@ Source0:	http://home.nwn.de/ebartels/linux/hp215/hp_photosmart215-%{version}.tar
 URL:		http://home.nwn.de/ebartels/linux/hp215/
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libusb-devel
 BuildRequires:	doxygen
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
